@@ -1,6 +1,6 @@
 
 # Brainfuck
-- Less than 100 LOC
+- Less than 100 LOC (not including stack.c)
 
 ## Install
 - clone repo
