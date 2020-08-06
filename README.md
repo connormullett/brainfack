@@ -1,6 +1,6 @@
 
 # Brainfuck
-- toy implementation, less thank 100 LOC
+- Less than 100 LOC
 
 ## Install
 - clone repo
