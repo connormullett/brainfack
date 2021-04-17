@@ -1,5 +1,5 @@
 
-CC=gcc
+CC=clang
 CFLAGS=-g
 OBJS=main.o stack.o
 

@@ -1,0 +1,17 @@
+
+CC=clang
+BIN=brainfuck
+OBJS=stack.o main.o
+
+BIN: OBJS
+    CC -o $@ $^
+
+main.o: main.c
+    CC -o $@ -c $^
+
+stack.o: stack.c
+    CC -o $@ -c $^
+
+clean:
+    rm BIN OBJS
+
